@@ -2,9 +2,10 @@
 
 h1 {
   width: 220px;
-  height: 100px;
+  height: 70px;
   display: flex;
   padding-top: 50px;
+  padding-left: 16px;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -15,9 +16,14 @@ h1 {
 /* ic_menu */
 
 .ic_menu {
-  padding-top: 15px;
-  padding-left: 60px;
-  background: #fafafa;
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 284px;
+  top: 19px;
+  padding-top: 0;
+  padding-left: 0;
+  background: #fff;
 }
 
 /* greeting */
@@ -30,15 +36,19 @@ h1 {
   justify-content: center;
   background: #fff;
   flex: 1;
+  left: 16px;
+}
+
+.greetingtwo {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 21px;
   letter-spacing: -0.01em;
   padding-top: 0;
   padding-right: 150px;
   padding-bottom: 20px;
-  color: #1a2236;
+  padding-left: 16px;
 }
 
 /* start collaboration box */
@@ -56,7 +66,7 @@ h1 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 15px;
-  padding-right: 70px;
+  padding-right: 80px;
   padding-left: 75px;
   color: #fff;
 }
@@ -88,10 +98,17 @@ h1 {
 .box a {
   box-sizing: border-box;
   display: flex;
-  padding-left: 10px;
+  padding-top: 0;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 0;
   background: #1a2236;
 }
 
 .wrapper {
   display: flex;
+  padding-top: 0;
+  padding-right: 16px;
+  padding-bottom: 0;
+  padding-left: 16px;
 }
