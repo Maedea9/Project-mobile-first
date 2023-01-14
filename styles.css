@@ -1,98 +1,97 @@
 /* Melanie Cascante */
 
 h1 {
-    width: 220px;
-    height: 100px;
-    display: flex;
-    padding-top: 50px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 100%;
-    color: #1a2236;
-  }
-  
-  /* ic_menu */
-  
-  .ic_menu {
-    padding-top: 15px;
-    padding-left: 60px;
-    background: #fafafa;
-  }
-  
-  /* greeting */
-  
-  .greeting {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    background: #fff;
-    flex: 1;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    padding-top: 0;
-    padding-right: 150px;
-    padding-bottom: 20px;
-    color: #1a2236;
-  }
-  
-  /* start collaboration box */
-  
-  .start_box {
-    box-sizing: border-box;
-    display: inline-flex;
-    align-content: center;
-    justify-content: center;
-    background: #1a2236;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    padding-right: 70px;
-    padding-left: 75px;
-    color: #fff;
-  }
-  
-  /* image_geometry_1 */
-  
-  .geometrytop {
-    position: absolute;
-    order: 0;
-    width: 111px;
-    height: 74px;
-    left: 0;
-    top: 0;
-  }
-  
-  /* image_geometry_2 */
-  
-  .geometrybottom {
-    width: 320px;
-    height: 160px;
-    left: 0;
-    top: 472px;
-    align-self: flex-end;
-    padding-top: 50px;
-  }
-  
-  /* Rectangle 20 */
-  
-  .box a {
-    box-sizing: border-box;
-    display: flex;
-    padding-left: 10px;
-    background: #1a2236;
-  }
-  
-  .wrapper {
-    display: flex;
-  }
-  
+  width: 220px;
+  height: 100px;
+  display: flex;
+  padding-top: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+/* ic_menu */
+
+.ic_menu {
+  padding-top: 15px;
+  padding-left: 60px;
+  background: #fafafa;
+}
+
+/* greeting */
+
+.greeting {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background: #fff;
+  flex: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  padding-top: 0;
+  padding-right: 150px;
+  padding-bottom: 20px;
+  color: #1a2236;
+}
+
+/* start collaboration box */
+
+.start_box {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  background: #1a2236;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 70px;
+  padding-left: 75px;
+  color: #fff;
+}
+
+/* image_geometry_1 */
+
+.geometrytop {
+  position: absolute;
+  order: 0;
+  width: 111px;
+  height: 74px;
+  left: 0;
+  top: 0;
+}
+
+/* image_geometry_2 */
+
+.geometrybottom {
+  width: 320px;
+  height: 160px;
+  left: 0;
+  top: 472px;
+  align-self: flex-end;
+  padding-top: 50px;
+}
+
+/* Rectangle 20 */
+
+.box a {
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 10px;
+  background: #1a2236;
+}
+
+.wrapper {
+  display: flex;
+}
