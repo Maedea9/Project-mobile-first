@@ -1,10 +1,32 @@
-/* Melanie Cascante */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+
+html, body {
+  width: 320p;
+  height:  100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  overflow-x: hidden;
+}
+
+.ic_menu {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 284px;
+  top: 19px;
+  background: #fff;
+}
 
 h1 {
   width: 220px;
   height: 70px;
-  display: flex;
-  padding-top: 50px;
   padding-left: 16px;
   font-style: normal;
   font-weight: 400;
@@ -13,24 +35,40 @@ h1 {
   color: #1a2236;
 }
 
-/* ic_menu */
+h2 {
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  padding-left: 16px;
+  top: 672px;
 
-.ic_menu {
-  position: absolute;
-  width: 20px;
-  height: 14px;
-  left: 284px;
-  top: 19px;
-  padding-top: 0;
-  padding-left: 0;
-  background: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
 }
 
-/* greeting */
+h3 {
+  width: 264px;
+height: 16px;
+left: 20px;
+top: 960px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 80%;
+padding-left: 16px;
+}
+
+ul {
+  padding-left: 16px;
+}
 
 .greeting {
-  box-sizing: border-box;
-  display: flex;
+
+  width: 320px;
   flex-direction: column;
   align-content: center;
   justify-content: center;
@@ -40,18 +78,29 @@ h1 {
 }
 
 .greetingtwo {
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  width: 290px;
+  font-size: 14px;
   line-height: 21px;
   letter-spacing: -0.01em;
   padding-top: 0;
-  padding-right: 150px;
+  padding-right: 16px;
   padding-bottom: 20px;
   padding-left: 16px;
+  margin-right: 0px;
 }
 
+div.box {
+  width: 320px;
+}
+
+div {
+  width: 320px;
+}
 .button {
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -61,23 +110,34 @@ h1 {
   color: #fff;
 }
 
+a:link { 
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 a:hover {
   background: #e5e5e5;
   color: #1a2236;
 }
+a:active {
+  text-decoration: none;
+}
 
-/* image_geometry_1 */
-
+header.wrapper {
+  max-width: 320px;
+}
 .geometrytop {
-  position: absolute;
+  flex-direction: row;
+  justify-self: flex-start;
+  width: 375px;
+  padding-left: 0px;
   order: 0;
   width: 111px;
   height: 74px;
-  left: 0;
-  top: 0;
 }
-
-/* image_geometry_2 */
 
 .geometrybottom {
   width: 320px;
@@ -86,6 +146,7 @@ a:hover {
   top: 472px;
   align-self: flex-end;
   padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 /* Rectangle 20 */
@@ -105,15 +166,8 @@ a:hover {
   justify-content: center;
 }
 
-.wrapper {
-  display: flex;
-  padding-top: 0;
-  padding-right: 16px;
-  padding-bottom: 0;
-  padding-left: 16px;
-}
-
 .rectangle21 {
+
   width: 320px;
   height: 186px;
   left: 0;
@@ -121,18 +175,14 @@ a:hover {
 }
 
 .works {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
   background-color: #1a2236;
   width: 320px;
   height: 156px;
-  left: 0;
+  left: 16px;
   top: 940px;
-  text-align: center;
+  text-align: start;
   padding-top: 10px;
-  padding-left: 0;
-  justify-content: center;
+  padding-left: 16pxpx;
   column-gap: 10px;
   row-gap: 15px;
 }
@@ -140,121 +190,112 @@ a:hover {
 .works > div {
   text-align: center;
   padding-top: 10px;
-  padding-right: 5px;
   padding-bottom: 5px;
-  padding-left: 5px;
+  font-family: 'Poppins';
   font-size: normal;
-  justify-content: space-between;
+  justify-content: stretch;
+}
+
+.works > div {
+  text-align: start;
+  font-size: normal;
+  justify-content: flex-start;
+  list-style-type: none;
 }
 
 .item1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  width: 264px;
-  height: 16px;
-  left: 20px;
-  top: 960px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 80%;
-  color: #fff;
+  display: inline-block;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  width: 60px;
+  height: 25px;
+  padding-top: 11px;
+  padding-right: 20px;
+  padding-left: 16px;
+  padding-bottom: 0;
+  background: #98dede;
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 10.3334px;
+line-height: 80%;
+color: #1a2236;
+margin-right: 15px;
+margin-left: 0;
 }
 
 .item2 {
-  width: 69px;
-  height: 20px;
-  left: 20px;
-  top: 992px;
-  padding-top: 0;
-  padding-left: 16px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25px;
+  height: 21px;
+  padding: 4px 10px;
   padding-bottom: 10px;
-  padding-right: 20px;
   background: #98dede;
-  font-style: normal;
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 10.3334px;
+line-height: 80%;
   font-weight: 300;
   font-size: 10.3334px;
-  line-height: 80%;
   color: #1a2236;
+  margin-right: 15px;
+
 }
 
 .item3 {
-  width: 87px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 57px;
   height: 20px;
-  left: 99px;
-  top: 992px;
+  padding: 4px 10px;
+  padding-bottom: 10px;
   background: #98dede;
-  font-style: normal;
+  
+font-family: 'Poppins';
+font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
-  line-height: 80%;
   color: #1a2236;
+  margin-right: 22px;
+  margin-left: 0;
 }
 
 .item4 {
-  width: 87px;
-  height: 20px;
-  left: 99px;
-  top: 992px;
-  background: #98dede;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 10.3334px;
-  line-height: 80%;
-  color: #1a2236;
-}
-
-.item5 {
   grid-column-start: 1;
   grid-column-end: 4;
-  width: 264px;
-  height: 30px;
-  left: 20px;
-  top: 960px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 80%;
-  color: #fff;
-  border: 2px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  align-self: center;
+  border: 1px solid #fff;
 }
 
 .works1 {
   background-color: #1a2236;
-  width: 320px;
+  width: 305px;
   height: 156px;
-  left: 0;
   top: 940px;
-  text-align: center;
+  text-align: start;
   padding-top: 10px;
-  padding-left: 0;
-  justify-content: center;
+  padding-left: 1px;
   column-gap: 10px;
-  row-gap: 15px;
 }
 
 .works1 > div {
-  text-align: center;
+  text-align: start;
   font-size: normal;
-  justify-content: center;
+  justify-content: flex-start;
   list-style-type: none;
-}
-
-.item6 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  text-align: center;
-  margin-left: 15px;
-  margin-top: 15px;
-  width: 264px;
-  height: 16px;
-  left: 20px;
-  top: 960px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 80%;
-  color: #fff;
 }
 
 li {
@@ -266,13 +307,16 @@ li {
 .item7 {
   display: inline-block;
   flex-direction: row;
-  align-self: center;
+  align-self: flex-start;
+  justify-content: flex-start;
   width: 59px;
   height: 20px;
   padding-top: 8px;
   padding-right: 8px;
-  padding-bottom: 0;
+  padding-left: 8px;
+  padding-bottom: 8px;
   background: #98dede;
+  font-family: 'Poppins';
   font-weight: 300;
   font-size: 10.3334px;
   color: #1a2236;
@@ -286,7 +330,8 @@ li {
   align-items: center;
   width: 27px;
   height: 20px;
-  padding: 4px 10px;
+  padding: 6px 10px;
+  padding-bottom: 10px;
   background: #98dede;
   font-weight: 300;
   font-size: 10.3334px;
@@ -302,7 +347,8 @@ li {
   text-align: center;
   width: 57px;
   height: 20px;
-  padding: 4px 10px;
+  padding: 6px 10px;
+  padding-bottom: 10px;
   background: #98dede;
   font-weight: 300;
   font-size: 10.3334px;
@@ -316,21 +362,25 @@ li {
   grid-column-end: 4;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 15px;
-  margin-bottom: 15px;
   align-self: center;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
+.div.item10 {
+  width: 305px;
+}
+
+.section.aboutme {
+  margin-right: 0px;
+  width: 320px;
+}
 .about2 {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;
   letter-spacing: -0.01em;
-  padding-top: 0;
-  padding-right: 150px;
+  padding-right: 70px;
   padding-bottom: 20px;
   padding-left: 16px;
 }
