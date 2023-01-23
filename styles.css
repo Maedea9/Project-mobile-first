@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
 
+
+
 html,
-body {
+.body {
   width: 375px;
   height: 100%; 
-  overflow: hidden;
+  overflow-x: hidden;
   margin-left: auto;
   margin-right: auto;
 }
@@ -817,4 +819,33 @@ div.item26 {
 .figure3 {
   align-self: flex-end;
   opacity: 0.9;
+}
+
+.container-contact-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+width: 320px;
+height: 813px;
+margin-top: 5vh;
+background: #F9F9FA;
+background-image: url(./images/img1.svg);
+background-repeat: no-repeat;
+}
+
+.get-started{
+  margin-top: 106px;
+  height: auto;
+}
+
+.second-text{
+  font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #1A2236;
+height: 63px;
+width: 288px;
+left: 16px;
+
+
 }
