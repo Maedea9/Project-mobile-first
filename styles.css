@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
 
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
 
 
 html,
@@ -15,7 +20,7 @@ html,
   position: absolute;
   width: 20px;
   height: 14px;
-  left: 294px;
+  left: 400px;
   top: 19px;
   background: #fff;
 }
@@ -171,7 +176,7 @@ header.wrapper {
 .geometrytop {
   flex-direction: row;
   justify-self: flex-start;
-  width: 375px;
+  width: 355px;
   padding-left: 0;
   order: 0;
   height: 74px;
@@ -185,8 +190,6 @@ header.wrapper {
   align-self: flex-end;
   padding-top: 20px;
 }
-
-/* Rectangle 20 */
 
 .box a {
   box-sizing: border-box;
