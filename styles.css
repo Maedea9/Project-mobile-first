@@ -17,6 +17,7 @@ html,
   flex-direction: row;
   align-items: center;
   background: #fff;
+  margin-right: 55px;
 }
 
 .toolbar{
