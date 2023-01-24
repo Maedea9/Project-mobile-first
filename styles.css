@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
 
-* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}
+
 
 
 html,
@@ -17,12 +13,16 @@ html,
 }
 
 .ic_menu {
-  position: absolute;
-  width: 20px;
-  height: 14px;
-  left: 400px;
-  top: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background: #fff;
+}
+
+.toolbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 h1 {
@@ -174,6 +174,7 @@ header.wrapper {
 }
 
 .geometrytop {
+  display: flex;
   flex-direction: row;
   justify-self: flex-start;
   width: 355px;
