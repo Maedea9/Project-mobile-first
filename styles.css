@@ -834,18 +834,175 @@ background-repeat: no-repeat;
 }
 
 .get-started{
+  margin-right: 75px;
   margin-top: 106px;
   height: auto;
+
 }
 
 .second-text{
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
 font-size: 14px;
 line-height: 21px;
 color: #1A2236;
 height: 63px;
 width: 288px;
-left: 16px;
+margin-left: 16px;
+}
 
+.input-label {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 288px;
+height: 52px;
+margin-bottom: 20px;
+margin-left: 9px;
+background: #FFFFFF;
+border: 1px solid #DFDFE0;
+border-radius: 4px;
+}
 
+.label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  height: 15px;
+  width: auto;  
+  margin-left: 16px;
+  margin-bottom: 4px ;
+  color: #7D7C84;
+}
+.input{
+  border: 0;
+  outline:0;
+  margin-left: 16px;
+}
+
+.input:focus{
+  outline: none !important;
+}
+
+#message-label {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#message {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#message-area {
+width: 288px;
+height: 112px;
+}
+
+.submit-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 288px;
+  height: 44px;
+  margin-left: 9px;
+  background: #1A2236;
+  margin-bottom: 50px;
+}
+
+.submit-button:hover {
+  background: #fff;
+  border: 1px solid #1a2236;
+}
+
+.text-a {
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 12px;
+text-align: center;
+width: 288px;
+height: 112px;
+color: #FFFFFF;
+}
+
+.text-a:hover {
+  color: #1a2236;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 150px;
+  background: #1A2236;
+}
+
+.get-resume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+margin-top: 30px;
+margin-left: 16px;
+}
+
+.get-my-resume{
+  font-family: 'Poppins';
+  font-style: normal;
+  margin-left: 16px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92DCDC;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button3 {
+text-align: center;
+width: 24px;
+height: 24px;
+color: #fff;
+}
+
+.stackoverflow {
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+.github {
+  margin-left: 14px;
+  margin-right: 10px;
+}
+
+.twitter {
+  margin-left: 14px;
+  margin-right: 10px;
+}
+
+.linkedin {
+  margin-left: 14px;
+  margin-right: 10px;
+}
+
+.medium {
+  margin-left: 14px;
+  margin-right: 10px;
+}
+
+.angellist {
+  margin-left: 14px;
+  margin-right: 10px;
 }
