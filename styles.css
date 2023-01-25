@@ -898,6 +898,7 @@ li {
 .submit-button:hover {
   background: #fff;
   border: 1px solid #1a2236;
+  cursor: pointer;
 }
 
 .text-a {
@@ -956,35 +957,41 @@ li {
   text-align: center;
   width: 24px;
   height: 24px;
-  color: #fff;
+  background-color: #1a2236;
 }
 
 .stackoverflow {
   margin-left: 12px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .github {
   margin-left: 14px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .twitter {
   margin-left: 14px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .linkedin {
   margin-left: 14px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .medium {
   margin-left: 14px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .angellist {
   margin-left: 14px;
   margin-right: 10px;
+  cursor: pointer;
 }
