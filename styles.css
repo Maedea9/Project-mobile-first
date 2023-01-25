@@ -868,15 +868,8 @@ li {
   outline: none !important;
 }
 
-.input::placeholder{
+.input::placeholder {
   opacity: 0;
-}
-
-
-
-#message-label {
-  font-size: 14px;
-  line-height: 21px;
 }
 
 .input-textarea {
@@ -890,8 +883,15 @@ li {
   line-height: 21px;
 }
 
-.input-textarea:focus{
-  outline: none !important;
+#message-label {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#message {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 #message-area {
