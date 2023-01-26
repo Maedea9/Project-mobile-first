@@ -140,6 +140,7 @@ div {
   line-height: 24px;
   text-align: center;
   border: color;
+  transition: all 300ms ease-in-out;
 }
 
 .button1:hover {
@@ -973,6 +974,10 @@ li {
   width: 24px;
   height: 24px;
   background-color: #1a2236;
+}
+
+.button3:hover{
+  transform: scale(1.5);
 }
 
 .stackoverflow {
