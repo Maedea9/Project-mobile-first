@@ -757,6 +757,7 @@ div.item4 {
   background: #fff;
   border: 1px solid #1a2236;
   cursor: pointer;
+  transition: all 300ms ease-in-out;
 }
 
 .text-a {
@@ -819,7 +820,7 @@ div.item4 {
 }
 
 .button3:hover {
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 
 .stackoverflow {
