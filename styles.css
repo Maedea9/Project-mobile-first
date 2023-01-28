@@ -123,7 +123,6 @@ div.box {
   text-align: center;
   border: color;
   text-decoration: none;
-  transition: all 300ms ease-in-out;
 }
  
 .button1:hover {
@@ -820,8 +819,7 @@ div.item4 {
 }
 
 .button3:hover {
-  transform: scale(1.5);
-}
+ transform: scale(1.5);
 
 .stackoverflow {
   margin-left: 12px;
